@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <meta charset= "UTF-8">
+    <meta http-equiv= "X-UA-Compatible" content= "IE=edge">
+    <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+    <title> Pokedex LaunchX </title>
+    <link rel= "stylesheet" href= "pokedexStyle.css">
+
+</head>
+<body>
+   <!-- Header con el logo pokedex -->
+    <header>
+        <img src= "C:\Users\Win10\Desktop\Pokedex\pokedeex.png" alt= "Logo de Pokedex" width= "200px">
+    </header>
+   <!-- Contenedor izquierdo -->
+    <section class= "izq">
+
+        <!-- Luces -->
+        <div class= "luces">
+            <div class= "circulo1"></div>
+            <div class= "roja"></div>
+            <div class= "amarilla"></div>
+            <div class= "verde"></div>
+        </div>
+        <!-- Pantalla para imagen -->
+        <div class= "pantalla">
+            <img src="./pokeball.png" alt= "Pokemon" id= "pokeImg" width= "130px">
+         </div> 
+    
+         <!-- Botones -->
+        <div class= "botones">
+            <div class= "circulo2"></div>
+            <div class= "aceptar"></div>
+            <div class= "cancelar"></div>
+        </div>
+
+        <div class= "cruz">
+            <div class= "vertical"></div>
+            <div class= "horizontal"></div>
+        </div>
+
+        <!-- buscador -->
+        <div class= "buscador">
+            <input type= "text" placeholder= "Buscar un pokemon" id= "pokeName" name= "pokeName">
+            <button class= "boton1" onclick= "fetchPokemon()"> Buscar </button>
+        </div>
+    </section>  
+    
+    <!-- pliegue de adorno -->
+    <div class="pliegue"></div>
+    
+    <!-- Contenedor derecho -->
+    <section class= "der">
+      
+        <!-- Pantalla de información-->
+        <div class= "pantalla2" >
+            <div id= "pokeInfo" ></div>
+        </div>
+        <!-- Teclado -->
+        <div class= "teclas">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Botones blancos -->
+        <div class= "botonBlanco">
+            <div></div>
+            <div></div>
+        </div>
+        <!-- Cuarta luz  -->
+        <div class= "circulo3"></div>
+        <!-- Otros adornos -->
+        <div class= "rectangulo">
+            <div></div>
+            <div></div>
+        </div>
+    </section> 
+
+</body>
+<footer>
+    <script src= "pokedex.js"></script>
+</footer>
+</html>
